@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="applicable-device" content="mobile">
+		<meta name="description" content="XXX">
+		<meta name="keywords" content="XXX">
+		<title>视频邀请美女直播APP</title>
+		<link href="https://zhuanzhu.cdn.bcebos.com/003/images/favicon.ico" rel="shortcut icon">
+		<link href="https://zhuanzhu.cdn.bcebos.com/003/css/swiper-3.4.2.min.css" rel="stylesheet">
+		<link href="https://zhuanzhu.cdn.bcebos.com/003/css/m.debug.css" rel="stylesheet">
+		<script src="https://zhuanzhu.cdn.bcebos.com/003/js/flexible.js"></script>
+	</head>
+
+	<body style="font-size: 12px; height: 925px; width: 868px;">
+		<section class="room room_window">
+			<div class="room_img blur" style="background-image: url(&quot;https://zhuanzhu.cdn.bcebos.com/003/data/list/6.jpg&quot;);"></div>
+			<!--头部信息-->
+			<div class="room_top box-size">
+				<div class="top_l fl">
+					<span class="pic"><img src="https://zhuanzhu.cdn.bcebos.com/003/data/list/6.jpg"></span>
+					<p class="name"><em>若熙</em><em class="xd">2658</em></p>
+					<a href="javascript:;" class="fr">关注</a>
+				</div>
+				<div class="top_c"><span class="pic"><img src="https://zhuanzhu.cdn.bcebos.com/003/data/viewer/9.jpg"></span><span class="pic"><img src="https://zhuanzhu.cdn.bcebos.com/003/data/viewer/10.jpg"></span><span class="pic"><img src="https://zhuanzhu.cdn.bcebos.com/003/data/viewer/8.jpg"></span></div>
+				<div class="top_r fr">6495</div>
+			</div>
+
+			<!--弹幕信息-->
+			<!-- <div class="room_barrage box-size">
+            <img src="https://zhuanzhu.cdn.bcebos.com/003/images/comment.png">
+        </div> -->
+
+			<!--火箭信息-->
+			<!--  <div class="room_rocket box-size">
+            <img src="https://zhuanzhu.cdn.bcebos.com/003/images/rocket.png">
+        </div> -->
+		</section>
+
+		<!--底部信息-->
+		<div class="room_bot box-size js_btnPop blur">
+			<!-- <input type="text" readonly value="说点什么..." class="box-size">
+             <p class="bot_btn">
+               <a href="javascript:;">
+                    <img src="https://zhuanzhu.cdn.bcebos.com/003/images/relay.png">
+                </a>
+                <a href="javascript:;">
+                    <img src="https://zhuanzhu.cdn.bcebos.com/003/images/gift.png">
+                </a>
+            </p> -->
+			<a href="javascript:;" style="display:block;">
+				<img src="https://zhuanzhu.cdn.bcebos.com/003/images/bottom.png" style="width:100%;">
+			</a>
+		</div>
+
+		<!--正在进入直播间-->
+		<div class="room_load box-size">
+			正在进入直播间
+			<br> 请稍后<span class="ani_dot"></span>
+		</div>
+
+		<!-- ios下载弹窗 -->
+		<div class="mask" id="js_box2">
+			<div class="alert-box">
+				<div class="now-download">“花间”安装中...</div>
+				<div class="close-btn" id="js_closeBtn2"></div>
+				<div class="alert-btn">
+					<div class="color-bar top-bar"></div>
+					<div class="color-bar buttom-bar"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="live_room_golive" ></div>
+		<div class="t_cover" ></div>
+		<div class="t_layer box-size" >
+			<img src="https://zhuanzhu.cdn.bcebos.com/003/images/logo.png" alt="">
+			<!-- <span class="golive"></span> -->
+			<!-- <h6>下载黄豆APP立即查看</h6> -->
+			<p>为保护该主播隐私，<br>请下载直播APP与她进行激情聊天，<br>建议17岁以上下载观看</p>
+			<a href="javascript:;" class="js_btn_down">立即下载</a>
+		</div>
+
+		<script src="https://zhuanzhu.cdn.bcebos.com/003/js/common.min.js"></script>
+		<script src="https://zhuanzhu.cdn.bcebos.com/003/js/swiper-3.4.2.min.js"></script>
+		<!--<script src="https://zhuanzhu.cdn.bcebos.com/003/data/dataSource1.js"></script>
+		<script src="https://zhuanzhu.cdn.bcebos.com/003/data/dataSource2.js"></script>
+		<script src="https://zhuanzhu.cdn.bcebos.com/003/js/openinstall.js"></script>-->
+		<script src="js/m.js?v=1.2"></script>
+		
+		<script type="text/javascript">
+			setTimeout(function(){
+				$('.t_cover, .live_room_golive, .t_layer').fadeIn();
+			},3000)
+		</script>
+		
+</body>
+
+</html>
