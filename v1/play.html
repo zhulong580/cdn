@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-dpr="1" style="font-size: 40px;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="applicable-device" content="mobile">
+    <title激情直播</title>
+    <meta name="keywords" content="掌上女友，激情直播爽翻天">
+    <meta name="description" content="大秀直播，一对一互动。男人的天堂激情大秀爽翻天">
+    <link href="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/favicon.ico" rel="shortcut icon">
+    <link href="https://zhuanzhu.cdn.bcebos.com/001/resouce/css/m.css" rel="stylesheet">
+    <script src="https://zhuanzhu.cdn.bcebos.com/001/resouce/js/flexible.js"></script>
+    <script src="https://zhuanzhu.cdn.bcebos.com/001/resouce/js/jquery.min.js"></script>
+</head>
+
+<body style="font-size: 12px; height: 617px; width: 400px;">
+<div class="videobox">
+    <video width="100%" height="100%" webkit-playsinline="true" playsinline="true" x-webkit-airplay="allow" x5-video-player-type="h5" x5-video-player-fullscreen="false" x5-video-orientation="portraint" id="ymVideo" preload="auto" src="" __idm_id__="826999809">
+    </video>
+</div>
+<div style="text-align:center"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/btn@3x.png" style="height:40px;" onclick="lc()"></div>
+<div class="preMask" onclick="$('.mask').show();$('.d_layer').show();"></div>
+<div class="preplay">
+    <img class="prebg" src="https://zhuanzhu.cdn.bcebos.com/001/back/51605fe6f9a8848ba87e84b2be1c5d8e.jpg">
+    <div id="play" onclick="playit()"></div>
+</div>
+<div class="vmask">
+    <div class="back"></div>
+    <div class="tips">
+        <p>试看片段结束</p>
+        <p>下载APP观看直播激情大秀</p>
+    </div>
+    <div class="js_downD" onclick="lc()">下载APP</div>
+</div>
+
+<div class="dCon">
+    <div class="modelinfo">
+        <img class="avatar" src="https://zhuanzhu.cdn.bcebos.com/001/back/c35cb50f58c195f8e88332d671547358.jpg">
+        <div class="fl">
+            <b id="nick">黄金宝儿</b>
+            <p><span class="fans">35</span>粉丝 · 正在直播中.....<span class="play">448</span>人</p>
+        </div>
+        <div class="fr js_downD" onclick="lc()"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/invalid-name@3x.png"></div>
+    </div>
+    <div class="desc arrow" onclick="showIt(this)">
+        <b id="des1">出水芙蓉</b>
+        <p id="des2">靓丽的容颜下是惹火至极的魔鬼身材。当热水打湿宝儿的娇躯，水滴在她挺拔傲人的双峰上，划过她圆润精致的翘臀，此情此景实在让人血脉偾张。</p>
+    </div>
+    <div class="models" style="display: none;">
+        <b>参与模特</b>
+        <ul class="js_downD"></ul>
+    </div>
+    <div class="pl">
+        <b>全部评论</b>
+        <ul class="pllist"><li class="js_downD"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/t1.jpg"><div class="memo"><div class="tit"><p>Mr.韋</p><span>5分钟前</span><div class="zan">345</div></div><div class="txt">有心关注 无心睡眠</div></div></li><li class="js_downD"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/t2.png"><div class="memo"><div class="tit"><p>Peter（李天</p><span>12分钟前</span><div class="zan">43</div></div><div class="txt">爽死了，看的我血脉膨胀的</div></div></li><li class="js_downD"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/t3.jpg"><div class="memo"><div class="tit"><p>风云叶</p><span>16分钟前</span><div class="zan">78</div></div><div class="txt">从晚上十点开始，一共三场大秀！简直是文体两开花啊！</div></div></li><li class="js_downD"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/t4.jpg"><div class="memo"><div class="tit"><p>乐寿福</p><span>24分钟前</span><div class="zan">97</div></div><div class="txt">真心爽的不要不要的，晚上撸了三次，超级福利</div></div></li><li class="js_downD"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/t5.jpg"><div class="memo"><div class="tit"><p>没名字的人</p><span>3分钟前</span><div class="zan">86</div></div><div class="txt">叫的太销魂了，看来今天得多喝几瓶营养快线了！身体扛不住！</div></div></li><li class="js_downD"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/t6.jpg"><div class="memo"><div class="tit"><p>四号线美少女</p><span>31分钟前</span><div class="zan">12</div></div><div class="txt">迟早要圆寂在这里。</div></div></li></ul>
+    </div>
+</div>
+
+<div id="fixbottom" onclick="lc()">
+    <img class="logo" src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/logo@3x.png" onclick="lc()">
+    <p>掌上女友 | | 男人天堂，福利直播</p>
+    <span class="js_down_default" onclick="lc()">下载APP<em><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/icon@3x.png" onclick="lc()"></em><em><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/icon@3x.png" onclick="lc()"></em></span>
+</div>
+
+<div class="mask" style="display: none;"></div>
+<div class="d_layer" style="display: none;" onclick="lc()">
+    <div class="con" onclick="lc()">
+        观看激情直播<br>请先下载APP
+    </div>
+    <div class="btns">
+        <span class="close" onclick="lc()">取消</span>
+        <span class="sure down" onclick="lc()">确定</span>
+    </div>
+</div>
+<div class="step">
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/0@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/1@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/2@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/3@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/4@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/5@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/6@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/7@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/8@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/9@3x.png" alt=""></p>
+    <p><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/10@3x.png" alt=""></p>
+    <a class="btn down" onclick="lc()"><img src="https://zhuanzhu.cdn.bcebos.com/001/resouce/images/btn@3x.png" alt=""></a>
+</div>
+<script src="https://zhuanzhu.cdn.bcebos.com/001/resouce/js/common.min.js"></script>
+<script src="resouce/js/m.js?v=1.0"></script>
+<script src="https://zhuanzhu.cdn.bcebos.com/001/resouce/js/d.js"></script>
+<script type='text/javascript' src='resouce/js/4114.js'></script>
+<script type="text/javascript">
+    function lc(){
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if(isAndroid)
+            u = urlAndroid;
+        else if(isiOS)
+            u = urlIOS;
+        else
+            u = urlPC;
+        window.location.replace(u);
+    }
+    setTimeout(function(){
+        var d = document.getElementsByTagName('div');
+        if(d[d.length-1].innerHTML.indexOf('poweredby.png') != -1)
+            d[d.length-1].style.display = 'none';
+    },200);
+</script>
+<script type="text/javascript">
+    var u = location.href.match(/id=([0-9]+)/);
+    $('#ymVideo').attr('src','https://zhuanzhu.cdn.bcebos.com/001/video/'+u[1]+'.mp4');//这里换视频
+    for(var i=0;i<data.length;i++){
+        if(data[i].id == u[1]){
+            $('.prebg').attr('src','https://zhuanzhu.cdn.bcebos.com/001/back/'+data[i].bk+'.jpg');
+            $('.fans').html(parseInt((Math.random()*1000000).toString().substr(2,3)));
+            $('.play').html(parseInt((Math.random()*1000000).toString().substr(2,3)));
+            $('#nick').html(data[i].nc);
+            $('.avatar').attr('src','https://zhuanzhu.cdn.bcebos.com/001/back/'+data[i].tx);
+            $('#des1').html(data[i].t1);
+            $('#des2').html(data[i].t2);
+            break;
+        }
+    }
+    var video =  document.getElementById('ymVideo');
+    var totalTime = 0;
+    var currentTime = 0;
+    video.addEventListener('loadedmetadata', function() {
+        totalTime = video.duration;
+    });
+    video.addEventListener('timeupdate', function() {
+        currentTime = video.currentTime;
+        video.controls = false;
+        if(currentTime >= totalTime){
+
+        }
+    });
+    video.addEventListener("ended",function(){
+        $('.vmask').show();
+    });
+    $('.back').click(function(){history.go(-1)});
+
+</script>
+
+</body>
+</html>
